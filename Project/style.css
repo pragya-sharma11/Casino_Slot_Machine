@@ -1,14 +1,18 @@
 div.machine{
     background-color:peru;
     border:dashed brown 3px;
-    height: 300px;
+    height: 250px;
     width:70% ;
     display:flex;
+    align-content: space-around;
+    align-items: flex-start;
 }
 
 div.slot{
-    height:250px;
-    width:250px;
+    height:150px;
+    width:60%;
+    margin : 20px;
     background-color: beige;
     border:solid darkblue 2px;
+    
 }
