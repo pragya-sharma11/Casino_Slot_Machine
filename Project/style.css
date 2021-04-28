@@ -31,30 +31,4 @@ div.slot{
 }
 
 
-@media (min-width:992px){
-   div.machine{
-       width:70%;
-       height:100%;
-       
-   }
-}
-@media (min-width:768px) and (max-width:991px){
-    div.machine{
-        margin:10%;
 
-    }
-}
-@media (max-width:767px){
-    div.machine{
-        width:80%;
-        height:1000px;
-        
-    }
-    div.slot{
-        flex-wrap: nowrap;
-        width:1000px;
-        height: 150px;
-        
-
-    }
-}
