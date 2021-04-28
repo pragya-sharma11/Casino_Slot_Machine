@@ -20,6 +20,9 @@ div.slot{
     text-align: center;
     line-height: 150px;
 }
+.slot .value{
+    animation: slotspin infinite 0.5s;
+}
 
 @keyframes slotspin {
     0%{
