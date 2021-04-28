@@ -3,4 +3,12 @@ div.machine{
     border:dashed brown 3px;
     height: 300px;
     width:70% ;
+    display:flex;
+}
+
+div.slot{
+    height:250px;
+    width:250px;
+    background-color: beige;
+    border:solid darkblue 2px;
 }
