@@ -4,16 +4,41 @@ div.machine{
     height: 250px;
     width:80% ;
     display:flex;
-    align-items: flex-start;
+    margin:10%;
+    flex-wrap: wrap;
+    align-content: space-around;
+    
 }
 
 div.slot{
     height:150px;
     width:60%;
-    margin : 20px;
+    margin : 10%;
     margin-top: 45px;
     background-color: beige;
     border:solid darkblue 2px;
     text-align: center;
     line-height: 150px;
+}
+
+@keyframes slotspin {
+    0%{
+        transform:translateY(-100px);
+    }
+    100%{
+        transform:translateY(100px)
+    }
+}
+
+@media (max-width:1199px) and (min-width:700px) {
+    div.machine{
+        flex-wrap: nowrap;
+    }
+}
+@media (max-width:700px){
+   div.machine{
+       width:70%;
+       height:100%;
+       flex-wrap: wrap;
+   }
 }
