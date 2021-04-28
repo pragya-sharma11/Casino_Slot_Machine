@@ -5,7 +5,7 @@ div.machine{
     width:80% ;
     
     margin:10%;
-    
+    z-index: 5;
     
     display:flex;
 }
@@ -19,8 +19,12 @@ div.slot{
     border:solid darkblue 2px;
     text-align: center;
     line-height: 150px;
+    z-index: 1;
+    overflow: hidden;
 }
-.slot .value{
+.slot > .value{
+    z-index: 3;
+    display: inline-block;
     animation: slotspin infinite 0.5s;
 }
 
