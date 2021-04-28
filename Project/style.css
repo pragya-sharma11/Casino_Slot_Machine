@@ -3,11 +3,11 @@ div.machine{
     border:dashed brown 3px;
     height: 250px;
     width:80% ;
-    display:flex;
-    margin:10%;
-    flex-wrap: wrap;
-    align-content: space-around;
     
+    margin:10%;
+    
+    
+    display:flex;
 }
 
 div.slot{
@@ -30,15 +30,31 @@ div.slot{
     }
 }
 
-@media (max-width:1199px) and (min-width:700px) {
-    div.machine{
-        flex-wrap: nowrap;
-    }
-}
-@media (max-width:700px){
+
+@media (min-width:992px){
    div.machine{
        width:70%;
        height:100%;
-       flex-wrap: wrap;
+       
    }
+}
+@media (min-width:768px) and (max-width:991px){
+    div.machine{
+        margin:10%;
+
+    }
+}
+@media (max-width:767px){
+    div.machine{
+        width:80%;
+        height:1000px;
+        
+    }
+    div.slot{
+        flex-wrap: nowrap;
+        width:1000px;
+        height: 150px;
+        
+
+    }
 }
