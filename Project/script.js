@@ -3,18 +3,20 @@ let value2 = document.getElementsById('value2')
 let value3 = document.getElementsById('value3')
 
 values = [
-    String.fromCodePoint(128514),
-    String.fromCodePoint(128516),
-    String.fromCodePoint(128526),
-    String.fromCodePoint(128534),
-    String.fromCodePoint(128525),
-    String.fromCodePoint(128520)
+    String.fromCodePoint(0x1F60E),
+    String.fromCodePoint(0x1F60B),
+    String.fromCodePoint(0x1F60D),
+    String.fromCodePoint(0x1F608),
+    String.fromCodePoint(0x1F602),
+    String.fromCodePoint(0x1F604)
 ]
 
 function getRadomValues(){
-    return values[parseInt(Math.random()*7)]
+    return values[Math.floor(Math.random()*6)];
 }
 
 setInterval(()=>{
-
-}, 300)
+    value1.innerHTML="1";
+    value2.innerHTML=getRadomValues();
+    value3.innerHTML=getRadomValues();
+}, 2000)
