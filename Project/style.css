@@ -19,12 +19,12 @@ div.slot{
     border:solid darkblue 2px;
     text-align: center;
     line-height: 150px;
-    font-size:xx-large;
+    font-size:60px;
     overflow: hidden;
 }
 .slot > .value{
     display: inline-block;
-    animation: slotspin infinite 0.5s;
+    animation: slotspin infinite 0.6s;
 }
 
 @keyframes slotspin {
