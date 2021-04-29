@@ -19,7 +19,7 @@ div.slot{
     border:solid darkblue 2px;
     text-align: center;
     line-height: 150px;
-    
+    font-size:xx-large;
     overflow: hidden;
 }
 .slot > .value{
