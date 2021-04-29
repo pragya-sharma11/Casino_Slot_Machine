@@ -11,12 +11,13 @@ div.machine{
 
 div.slot{
     height:150px;
-    width:10%;
-    margin : 30%;
+    width:20%;
+    margin : 10%;
     margin-top: 45px;
     background-color: beige;
     border:solid darkblue 2px;
     text-align: center;
+    line-height: 150px;
     
     overflow: hidden;
 }
@@ -27,11 +28,11 @@ div.slot{
 
 @keyframes slotspin {
     0%{
-        transform:translateY(-100px);
+        transform:translateY(-150px);
     }
     100%{
         
-        transform:translateY(100px)
+        transform:translateY(150px)
     }
 }
 
