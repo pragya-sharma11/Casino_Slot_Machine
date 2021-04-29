@@ -10,3 +10,11 @@ let values = [
     String.fromCodePoint(128525),
     String.fromCodePoint(128520)
 ]
+
+function getRadomValues(){
+    return values[parseInt(Math.random()*7)]
+}
+
+setInterval(()=>{
+
+}, 300)
