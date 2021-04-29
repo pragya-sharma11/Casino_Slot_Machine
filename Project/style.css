@@ -22,10 +22,15 @@ div.slot{
     font-size:60px;
     overflow: hidden;
 }
+:root{
+    --speed : 5;
+}
 .slot > .value{
     display: inline-block;
-    animation: slotspin infinite 0.5s;
+    animation: slotspin infinite ;
+    animation-duration: calc(1s/var(--speed));
 }
+
 
 @keyframes slotspin {
     0%{
