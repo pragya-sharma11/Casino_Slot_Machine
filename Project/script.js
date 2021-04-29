@@ -10,3 +10,5 @@ setInterval(()=>{
     document.getElementById( 'value2' ).innerHTML=getRadomValues();
     document.getElementById( 'value3' ).innerHTML=getRadomValues();
 }, 300)
+
+document.getElementById('inps').onchange = (function () { console.log("value change")})
