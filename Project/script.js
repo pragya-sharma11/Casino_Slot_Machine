@@ -2,7 +2,7 @@ let value1 = document.getElementsById('value1')
 let value2 = document.getElementsById('value2')
 let value3 = document.getElementsById('value3')
 
-values = [
+let values1 = [
     String.fromCodePoint(0x1F60E),
     String.fromCodePoint(0x1F60B),
     String.fromCodePoint(0x1F60D),
@@ -12,7 +12,7 @@ values = [
 ]
 
 function getRadomValues(){
-    return values[Math.floor(Math.random()*6)];
+    return values1[Math.floor(Math.random()*6)];
 }
 
 setInterval(()=>{
