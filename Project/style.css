@@ -27,8 +27,8 @@ div.slot{
     overflow: hidden;
 }
 
-div.btns{
-    display: flex;
+button.working{
+    width: 100px;
 }
 :root{
     --speed : 5;
