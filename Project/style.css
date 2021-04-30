@@ -74,12 +74,12 @@ button.working{
 
 :root{
     --speed : 5;
-    --limit : 0;
+    --limit : 1s;
 }
 .slot > .value{
     display: inline-block;
     animation: slotspin infinite ;
-    animation-duration: calc((--limit)/var(--speed));
+    animation-duration: calc(var(--limit)/var(--speed));
 }
 
 
