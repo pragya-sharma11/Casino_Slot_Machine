@@ -8,7 +8,7 @@ let stop = document.getElementById('stop')
 function getRadomValues(){
     return values[Math.floor(Math.random()*6)];
 }
-
+start.onclick=function (){
 let animationId;
 function updateAnimation(newSpeed){
     if(animationId){
@@ -30,5 +30,6 @@ document.getElementById('inpSpeed').onclick=function (event) {
      document.documentElement.style.setProperty('--speed', event.target.value)
 
      updateAnimation(event.target.value)
+}
 }
 }
