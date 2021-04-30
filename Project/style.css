@@ -1,6 +1,9 @@
 header{
     font-size: 60px;
+    background-color:rgb(122, 182, 250);
     text-align: center;
+    line-height: 95px;
+    height: 100px;
     color: rgb(211, 1, 1);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
