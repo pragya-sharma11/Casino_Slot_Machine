@@ -3,12 +3,16 @@ values=[ String.fromCodePoint(0x1F60E), String.fromCodePoint(0x1F60B), String.fr
 let value1 = document.getElementById( 'value1' );
 let value2 =document.getElementById( 'value2' );
 let value3 =document.getElementById( 'value3' );
-let start = document.getElementById('start')
-let stop = document.getElementById('stop')
+startbutton = document.getElementById('start');
+stopbutton = document.getElementById('stop');
 function getRadomValues(){
     return values[Math.floor(Math.random()*6)];
 }
-start.onclick=function (){
+var d = new Date();
+d.setSeconds(1,0)
+
+  //document.getElementsByClassName('value').style.animationDuration = "5s";                      
+
 let animationId;
 function updateAnimation(newSpeed){
     if(animationId){
@@ -23,7 +27,7 @@ function updateAnimation(newSpeed){
 }
 
 
-document.getElementById('inpSpeed').onclick=function (event) {
+document.getElementById('inpSpeed').onchange=function (event) {
      console.log("value change " , event.target.value)
 
      //document.documentElement : this is the :root of css
@@ -32,4 +36,4 @@ document.getElementById('inpSpeed').onclick=function (event) {
      updateAnimation(event.target.value)
 }
 }
-}
+
