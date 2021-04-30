@@ -26,12 +26,20 @@ div.slot{
     font-size:90px;
     overflow: hidden;
 }
-
+div.btns{
+    margin-top: 100px;
+}
+button.working:hover{
+    transform: translate(-5px,-5px);   
+}
 button.working{
     width: 100px;
-    margin-left: 3px;
-    margin-top: 5px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
+
 :root{
     --speed : 5;
 }
