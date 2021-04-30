@@ -11,6 +11,15 @@ setInterval(()=>{
     document.getElementById( 'value3' ).innerHTML=getRadomValues();
 }, 300)
 
+
+let animationId;
+function updateAnimation(newSpeed){
+    if(animationId){
+        clearInterval(animationId);
+    }
+}
+
+
 document.getElementById('inpSpeed').onclick=function (event) {
      console.log("value change " , event.target.value)
 
