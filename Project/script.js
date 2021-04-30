@@ -26,7 +26,7 @@ function updateAnimation(newSpeed){
     
 }
 
-
+updateAnimation(document.getElementById('inpSpeed').innerHTML)
 document.getElementById('inpSpeed').onchange=function (event) {
      console.log("value change " , event.target.value)
 
