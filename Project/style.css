@@ -39,10 +39,17 @@ button.working:active{
 button.working{
     width: 100px;
     height: 50px;
+    border-radius: 5px;
     margin-left: 15px;
     margin-top: 10px;
     margin-bottom: 40px;
-    box-shadow: rgb(100, 94, 84) 2px 2px 2px 2px;
+    box-shadow: rgb(150, 50, 43) 2px 3px 2px 3px;
+    color: midnightblue;
+    font-weight: bolder;
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-color: maroon;
+    border-width: 2px;
 }
 
 :root{
