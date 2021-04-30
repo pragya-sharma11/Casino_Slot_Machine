@@ -37,7 +37,7 @@ div.slot{
     border:solid rgb(160, 4, 4) 3px;
     box-shadow: maroon 2px 2px 2px 2px;
     text-align: center;
-    line-height: 150px;
+    line-height: 250px;
     font-size:90px;
     overflow: hidden;
 }
@@ -74,11 +74,12 @@ button.working{
 
 :root{
     --speed : 5;
+    --limit : 0;
 }
 .slot > .value{
     display: inline-block;
     animation: slotspin infinite ;
-    animation-duration: calc(1s/var(--speed));
+    animation-duration: calc((--limit)/var(--speed));
 }
 
 
