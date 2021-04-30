@@ -24,5 +24,7 @@ document.getElementById('inpSpeed').onclick=function (event) {
 
      //document.documentElement : this is the :root of css
      document.documentElement.style.setProperty('--speed', event.target.value)
+
+     updateAnimation(event.target.value)
 }
 }
