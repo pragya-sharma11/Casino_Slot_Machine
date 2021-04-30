@@ -4,11 +4,7 @@ header{
     color: rgb(211, 1, 1);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-body{
-    margin: 0px;
-    background-color: rgb(240, 237, 237);
-    border-radius: 6px;
-}
+
 div.machine{
     background-color:rgb(205, 100, 64);
     border:dashed rgb(80, 3, 3) 3px;
