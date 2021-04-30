@@ -1,4 +1,4 @@
-
+window.onload = function (){
 let values=[ String.fromCodePoint(0x1F60E), String.fromCodePoint(0x1F60B), String.fromCodePoint(0x1F60D), String.fromCodePoint(0x1F608), String.fromCodePoint(0x1F602), String.fromCodePoint(0x1F604)];
 
 function getRadomValues(){
@@ -11,4 +11,10 @@ setInterval(()=>{
     document.getElementById( 'value3' ).innerHTML=getRadomValues();
 }, 300)
 
-document.getElementById('inps').onchange = (function () { console.log("value change")})
+document.getElementById('inpSpeed').onclick=function (event) {
+     console.log("value change " , event.target.value)
+
+     //document.documentElement : this is the :root of css
+     document.documentElement.style.setProperty('--speed', event.target.value)
+}
+}

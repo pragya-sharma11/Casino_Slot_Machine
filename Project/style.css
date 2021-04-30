@@ -8,7 +8,7 @@ div.machine{
     
     display:flex;
 }
-#inps{
+#inpSpeed{
     font-size: 30pt;
     margin-left: 30px;
     width: 64px;
@@ -32,7 +32,7 @@ div.slot{
 .slot > .value{
     display: inline-block;
     animation: slotspin infinite ;
-    animation-duration: calc(3s/var(--speed));
+    animation-duration: calc(1s/var(--speed));
 }
 
 
