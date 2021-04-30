@@ -5,18 +5,17 @@ function getRadomValues(){
     return values[Math.floor(Math.random()*6)];
 }
 
-setInterval(()=>{
-    document.getElementById( 'value1' ).innerHTML=getRadomValues();
-    document.getElementById( 'value2' ).innerHTML=getRadomValues();
-    document.getElementById( 'value3' ).innerHTML=getRadomValues();
-}, 300)
-
-
 let animationId;
 function updateAnimation(newSpeed){
     if(animationId){
         clearInterval(animationId);
     }
+    animationId=setInterval(()=>{
+        document.getElementById( 'value1' ).innerHTML=getRadomValues();
+        document.getElementById( 'value2' ).innerHTML=getRadomValues();
+        document.getElementById( 'value3' ).innerHTML=getRadomValues();
+    },)
+    
 }
 
 
