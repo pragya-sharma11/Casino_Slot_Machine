@@ -1,7 +1,7 @@
 div.machine{
     background-color:peru;
     border:dashed brown 3px;
-    height: 250px;
+    height: 400px;
     width:1000px ;
     
     margin:10%;
@@ -14,7 +14,7 @@ div.machine{
     width: 64px;
 }
 div.slot{
-    height:150px;
+    height:250px;
     width:400px;
     margin-left : 20px;
     margin-right: 30px;
@@ -44,11 +44,11 @@ button.working{
 
 @keyframes slotspin {
     0%{
-        transform:translateY(-200px);
+        transform:translateY(-350px);
     }
     100%{
         
-        transform:translateY(200px);
+        transform:translateY(350px);
     }
 }
 
