@@ -14,7 +14,7 @@ function updateAnimation(newSpeed){
         document.getElementById( 'value1' ).innerHTML=getRadomValues();
         document.getElementById( 'value2' ).innerHTML=getRadomValues();
         document.getElementById( 'value3' ).innerHTML=getRadomValues();
-    },)
+    },1000/newSpeed)
     
 }
 
