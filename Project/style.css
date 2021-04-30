@@ -26,6 +26,10 @@ div.slot{
     font-size:60px;
     overflow: hidden;
 }
+
+div.btns{
+    display: flex;
+}
 :root{
     --speed : 5;
 }
