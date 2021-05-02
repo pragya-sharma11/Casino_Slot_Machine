@@ -11,6 +11,7 @@ body{
     margin: 0px;
     background-color: rgb(240, 237, 237);
     border-radius: 6px;
+    background-image: url(./777);
 }
 div.machine{
     background-color:rgb(205, 100, 64);
@@ -100,17 +101,19 @@ div.status{
     padding: 0px;
     padding-left: 60px;
     font-size:50px;
-    color:darkblue;
+    color:rgb(236, 236, 169);
     font-family: fantasy;
     border-radius: 5px;
     border:solid red 2px;
     display: flex;
+    background-color: darkblue;
 }
 
 div.speed{
     font-size: 30px;
     display:flex;
-    color:brown
+    color:rgb(52, 52, 122);
+
 }
 #inpSpeed{
     height: 50px;
