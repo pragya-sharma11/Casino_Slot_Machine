@@ -107,5 +107,16 @@ div.status{
     display: flex;
 }
 
+div.speed{
+    font-size: 30px;
+    display:flex;
+    color:brown
+}
+#inpSpeed{
+    height: 50px;
+    margin-top:20px ;
+    border:rgb(94, 94, 129) solid  1px;
+    box-shadow: rgb(94, 94, 129) 2px 2px 2px 2px;
+}
 
 
