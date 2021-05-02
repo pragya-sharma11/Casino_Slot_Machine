@@ -29,6 +29,12 @@ function updateAnimation(newSpeed){
 stopbutton.onclick=function(){
     document.documentElement.style.setProperty('--limit',"0s");                      
     clearInterval(animationId);
+    if(value1.innerText == value2.innerText && value1.innerText == value3.innerText){
+        document.getElementById('state').innerText="=YOU WIN!!"
+    }
+    else{
+        document.getElementById('state').innerText="YOU LOSE!!" 
+    }
   }
 
 document.getElementById('inpSpeed').onchange=function (event) {
