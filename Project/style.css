@@ -104,6 +104,7 @@ div.status{
     font-family: fantasy;
     border-radius: 5px;
     border:solid red 2px;
+    display: flex;
 }
 
 
