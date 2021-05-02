@@ -97,8 +97,9 @@ div.status{
     margin-top:50px ;
     margin-left: 300px;
     margin-right: 400px;
-    padding-left: 100px;
-    font-size:40px;
+    padding: 0px;
+    padding-left: 60px;
+    font-size:50px;
     color:darkblue;
     font-family: fantasy;
     border-radius: 5px;
