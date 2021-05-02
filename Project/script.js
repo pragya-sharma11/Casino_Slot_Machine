@@ -43,7 +43,7 @@ document.getElementById('inpSpeed').onchange=function (event) {
 
      //document.documentElement : this is the :root of css
      document.documentElement.style.setProperty('--speed', event.target.value)
-
+     if(document.getElementById('state').innerText=="")
      updateAnimation(event.target.value)
 }
 }
