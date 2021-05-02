@@ -10,10 +10,7 @@ function getRadomValues(){
 }
 let animationId;
 
-stopbutton.onclick=function(){
-    document.documentElement.style.setProperty('--limit',"0s");                      
-    clearInterval(animationId);
-  }
+
 
 startbutton.onclick=function(){
     document.documentElement.style.setProperty('--limit',"1s");                      
@@ -29,6 +26,10 @@ function updateAnimation(newSpeed){
         value3.innerHTML=getRadomValues();
     },1000/newSpeed)
 }
+stopbutton.onclick=function(){
+    document.documentElement.style.setProperty('--limit',"0s");                      
+    clearInterval(animationId);
+  }
 
 document.getElementById('inpSpeed').onchange=function (event) {
      console.log("value change " , event.target.value)
