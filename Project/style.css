@@ -96,9 +96,13 @@ button.working{
 div.status{
     margin-top:50px ;
     margin-left: 300px;
-    font-size:30px;
+    margin-right: 400px;
+    padding-left: 100px;
+    font-size:40px;
     color:darkblue;
     font-family: fantasy;
+    border-radius: 5px;
+    border:solid blue 2px;
 }
 
 
