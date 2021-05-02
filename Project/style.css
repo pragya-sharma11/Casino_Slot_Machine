@@ -93,5 +93,13 @@ button.working{
     }
 }
 
+div.status{
+    margin-top:50px ;
+    margin-left: 300px;
+    font-size:30px;
+    color:darkblue;
+    font-family: fantasy;
+}
+
 
 
