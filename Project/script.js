@@ -8,16 +8,17 @@ stopbutton = document.getElementById('stop');
 function getRadomValues(){
     return values[Math.floor(Math.random()*6)];
 }
+let animationId;
+
 stopbutton.onclick=function(){
     document.documentElement.style.setProperty('--limit',"0s");                      
     clearInterval(animationId);
   }
+
 startbutton.onclick=function(){
     document.documentElement.style.setProperty('--limit',"1s");                      
+    updateAnimation(5);
 
-d.setSeconds(1,0)
-
-let animationId;
 function updateAnimation(newSpeed){
     if(animationId){
         clearInterval(animationId);
@@ -27,7 +28,6 @@ function updateAnimation(newSpeed){
         value2.innerHTML=getRadomValues();
         value3.innerHTML=getRadomValues();
     },1000/newSpeed)
-    
 }
 
 updateAnimation(document.getElementById('inpSpeed').innerHTML)
