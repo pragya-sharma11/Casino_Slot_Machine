@@ -8,10 +8,11 @@ stopbutton = document.getElementById('stop');
 function getRadomValues(){
     return values[Math.floor(Math.random()*6)];
 }
-var d = new Date();
-d.setSeconds(1,0)
 
-  //document.getElementsByClassName('value').style.animationDuration = "5s";                      
+startbutton.onclick=function(){
+    document.documentElement.style.setProperty('--limit',"1s");                      
+
+d.setSeconds(1,0)
 
 let animationId;
 function updateAnimation(newSpeed){
@@ -36,4 +37,4 @@ document.getElementById('inpSpeed').onchange=function (event) {
      updateAnimation(event.target.value)
 }
 }
-
+}

@@ -74,7 +74,7 @@ button.working{
 
 :root{
     --speed : 5;
-    --limit : 1s;
+    --limit : 0s;
 }
 .slot > .value{
     display: inline-block;
