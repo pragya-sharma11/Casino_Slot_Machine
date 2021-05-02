@@ -8,7 +8,10 @@ stopbutton = document.getElementById('stop');
 function getRadomValues(){
     return values[Math.floor(Math.random()*6)];
 }
-
+stopbutton.onclick=function(){
+    document.documentElement.style.setProperty('--limit',"0s");                      
+    clearInterval(animationId);
+  }
 startbutton.onclick=function(){
     document.documentElement.style.setProperty('--limit',"1s");                      
 
