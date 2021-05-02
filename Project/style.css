@@ -11,7 +11,8 @@ body{
     margin: 0px;
     background-color: rgb(240, 237, 237);
     border-radius: 6px;
-    background-image: url(./777);
+    background-image: url(./square.jpg);
+    background-position: center;
 }
 div.machine{
     background-color:rgb(205, 100, 64);
@@ -20,6 +21,7 @@ div.machine{
     width:1080px ;
     margin-left: 90px;
     margin-top: 40px;
+    margin-bottom: 0px;
     border-radius: 10px;
     display:flex;
 }
