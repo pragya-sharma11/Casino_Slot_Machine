@@ -13,6 +13,7 @@ let animationId;
 
 
 startbutton.onclick=function(){
+    document.getElementById('state').innerText=" "
     document.documentElement.style.setProperty('--limit',"1s");                      
     updateAnimation(5);
 
